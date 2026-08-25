@@ -1,0 +1,14 @@
+# Text file normalization
+*.min.js linguist-generated
+*.json linguist-detectable=false
+
+public/*.html linguist-vendored
+
+*.sh text eol=lf
+*.woff2 binary 
+
+*.gif binary
+*.jpg binary
+*.bat text eol=crlf
+
+**/*.py linguist-detectable
